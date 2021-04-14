@@ -1,6 +1,10 @@
-# Learn Terraform - Provision a GKE Cluster
+# Provision a GKE Cluster and deploy nginx service
 
-This repo is a companion repo to the [Provision a GKE Cluster learn guide](https://learn.hashicorp.com/terraform/kubernetes/provision-gke-cluster), containing Terraform configuration files to provision an GKE cluster on GCP.
+Move into terraform-provision-gke-cluster folder and open terraform.tfvars file.
+Change the google project_id and zone values with yours.
 
-This sample repo also creates a VPC and subnet for the GKE cluster. This is not
-required but highly recommended to keep your GKE cluster isolated.
+Then execute 'terraform init' and then 'terraform apply' (if you want you want you can run 'terraform plan' before the apply command, so you can verify what will be created).
+
+After that you can move into terraform-deploy-nginx-kubernetes folder and run the same commands.
+
+**This code is not for a productive environment**
