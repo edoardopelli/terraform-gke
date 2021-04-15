@@ -8,3 +8,5 @@ Then execute 'terraform init' and then 'terraform apply' (if you want you want y
 After that you can move into terraform-deploy-nginx-kubernetes folder and run the same commands.
 
 **This code is not for a productive environment**
+
+[Here](https://github.com/hashicorp/learn-terraform-provision-gke-cluster) the original sources
